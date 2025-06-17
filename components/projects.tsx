@@ -18,7 +18,7 @@ const projects = [
       "A local e-commerce website with an admin dashboard for managing products, users, and operations. Features include adding/removing products, setting prices, and tracking activity, integrated with a local payment method.",
     icon: ShoppingBag,
     technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
-    github: "https://github.com/Gebire3/EthioDen",
+    github: "https://mysuq.netlify.app/",
     features: ["Admin dashboard", "Product management", "User management", "Local payment integration"],
   },
 ]
