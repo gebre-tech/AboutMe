@@ -1,25 +1,28 @@
-"use client"
+"use client";
 
-import { useState, useEffect } from "react"
-import { Shield, Lock, Eye } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import { useState, useEffect } from "react";
+import { Shield, Lock, Eye } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 export function Hero() {
-  const [mounted, setMounted] = useState(false)
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    setMounted(true)
-  }, [])
+    setMounted(true);
+  }, []);
 
   const scrollToSection = (href: string) => {
-    const element = document.querySelector(href)
-    element?.scrollIntoView({ behavior: "smooth" })
-  }
+    const element = document.querySelector(href);
+    element?.scrollIntoView({ behavior: "smooth" });
+  };
 
-  if (!mounted) return null
+  if (!mounted) return null;
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center pt-20 px-4">
+    <section
+      id="home"
+      className="min-h-screen flex items-center justify-center pt-20 px-4"
+    >
       <div className="container mx-auto grid lg:grid-cols-2 gap-12 items-center">
         <div className="text-center lg:text-left space-y-6">
           <div className="space-y-2">
@@ -32,8 +35,9 @@ export function Hero() {
           </div>
 
           <p className="text-lg text-slate-300 max-w-2xl">
-            I'm ready to secure your data from hackers. Protect your website, server, service, & application against the
-            increasing sophistication of hacker threats.
+            I'm ready to secure your data from hackers. Protect your website,
+            server, service, & application against the increasing sophistication
+            of hacker threats.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -73,7 +77,7 @@ export function Hero() {
             <div className="w-80 h-80 rounded-full bg-gradient-to-r from-purple-500 to-blue-500 p-1">
               <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center">
                 <img
-                  src="/placeholder.svg?height=300&width=300"
+                  src="./pp.jpg?height=300&width=300"
                   alt="Gebremeskel Shimels"
                   className="w-72 h-72 rounded-full object-cover"
                 />
@@ -86,5 +90,5 @@ export function Hero() {
         </div>
       </div>
     </section>
-  )
+  );
 }
