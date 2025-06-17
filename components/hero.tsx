@@ -77,7 +77,7 @@ export function Hero() {
             <div className="w-80 h-80 rounded-full bg-gradient-to-r from-purple-500 to-blue-500 p-1">
               <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center">
                 <img
-                  src="/pp.jpg?height=300&width=300"
+                  src="/pp.jpeg?height=300&width=300"
                   alt="Gebremeskel Shimels"
                   className="w-72 h-72 rounded-full object-cover"
                 />
