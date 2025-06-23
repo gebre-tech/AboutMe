@@ -31,7 +31,7 @@ export function Hero() {
               Gebremeskel Shimels
             </h1>
             <p className="text-xl text-slate-300">Cybersecurity Professional</p>
-            <p className="text-lg text-slate-400">Addis Ababa, Ethiopia</p>
+            <p className="text-lg text-slate-400">Bahir Dar Ethiopia</p>
           </div>
 
           <p className="text-lg text-slate-300 max-w-2xl">
