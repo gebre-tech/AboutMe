@@ -16,22 +16,10 @@
 
 ## Technologies Used
 
-- **Frontend**: HTML, CSS, JavaScript
+- **Frontend**: HTML, CSS, Nextjs
 - **Deployment**: Netlify (CI/CD integration with GitHub)
 - **Other Tools**: GitHub Actions for automated workflows
 
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/gebre-tech/AboutMe.git
-   cd AboutMe
-   ```
-2. Open `index.html` in a web browser to view the portfolio locally.
-3. (Optional) Deploy to Netlify:
-   - Connect the repository to Netlify via the Netlify dashboard.
-   - Configure build settings (e.g., build command: `none`, publish directory: `/`).
-   - Deploy to access the site at a unique Netlify URL.
 
 ## Usage
 
