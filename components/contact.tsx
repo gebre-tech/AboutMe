@@ -40,7 +40,7 @@ export function Contact() {
                     <MapPin className="w-6 h-6 text-purple-400" />
                   </div>
                   <h4 className="font-semibold text-purple-300">Location</h4>
-                  <span className="text-slate-400">Addis Ababa, Ethiopia</span>
+                  <span className="text-slate-400">Bahir Dar, Ethiopia</span>
                 </div>
 
                 <div className="flex flex-col items-center space-y-2">
